@@ -1,0 +1,1 @@
+var __vite_style__=document.createElement("style");__vite_style__.innerHTML=".hello{color:#fff;background:url(/assets/hello.2c50d226.png) no-repeat}",document.head.appendChild(__vite_style__),System.register(["./dynamic-import-polyfill-legacy.e3189f2b.js"],(function(){"use strict";return{setters:[function(){}],execute:function(){console.log("Hello, World!")}}}));
