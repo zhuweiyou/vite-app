@@ -2,7 +2,13 @@
   <h1 class="hello">Hello, World!</h1>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  console.log('Hello, World!')
+})
+</script>
 
 <style lang="less" scoped>
 .hello {
