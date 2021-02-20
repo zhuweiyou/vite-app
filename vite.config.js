@@ -8,8 +8,10 @@ import autoprefixer from 'autoprefixer'
 import glob from 'glob'
 
 const resolve = pathSegments => path.resolve(__dirname, pathSegments)
+const prod = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
+  base: prod ? '/vite-app/' : '/',
   plugins: [
     vue(),
     reactRefresh(),
