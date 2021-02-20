@@ -1,0 +1,1 @@
+import"./dynamic-import-polyfill.b4a31b2c.js";import{r as e,a as l}from"./vendor.af766faa.js";var o="_hello_1tz6v_1";function r(){return l.useEffect((()=>{console.log("Hello, World!")}),[]),l.createElement("h1",{className:o},"Hello, World!")}e.render(l.createElement(r,null),document.getElementById("root"));

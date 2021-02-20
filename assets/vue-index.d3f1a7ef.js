@@ -1,1 +1,0 @@
-import"./dynamic-import-polyfill.b4a31b2c.js";import{p as a,b as o,o as s,c,w as d,d as t}from"./vendor.05cfc996.js";const l={},p=d("data-v-cd797a2a");a("data-v-cd797a2a");const r={class:"hello"};o();const n=p(((a,o)=>(s(),c("h1",r,"Hello, World!"))));l.render=n,l.__scopeId="data-v-cd797a2a",t(l).mount("#app");

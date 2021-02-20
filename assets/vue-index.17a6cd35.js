@@ -1,0 +1,1 @@
+import"./dynamic-import-polyfill.b4a31b2c.js";import{p as o,b as a,o as s,c as d,d as l,w as e,e as t}from"./vendor.af766faa.js";const p=e("data-v-822dde48");o("data-v-822dde48");const c={class:"hello"};a();const n={expose:[],setup:o=>(s((()=>{console.log("Hello, World!")})),p(((o,a)=>(d(),l("h1",c,"Hello, World!"))))),__scopeId:"data-v-822dde48"};t(n).mount("#app");
